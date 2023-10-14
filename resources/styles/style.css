@@ -1,0 +1,64 @@
+/* 
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Pixelify Sans', cursive;
+font-family: 'Space Grotesk', sans-serif;
+*/
+
+@font-face {
+  font-family: orangeKid;
+  src: url(../fonts/orangekid.otf);
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #FFF6DC;
+  background-image: url(../images/tile_background.png);
+  font-size: 1.125rem;
+}
+
+
+
+
+
+nav {
+  background-color: #FFC6AC;
+  
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 1.125rem;
+}
+
+
+.navbar-brand img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+.navbar-brand img span {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 5px;
+}
+
+.nav-link:hover {
+  color: #858370;
+}
+
+main .row .col-lg-5 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+main .row .col-lg-5 h1 {
+  font-size: 5em;
+  font-family: orangeKid;
+  font-weight: 900;
+}
+
+.col-lg-7 img {
+  border-radius: 25%;
+}
