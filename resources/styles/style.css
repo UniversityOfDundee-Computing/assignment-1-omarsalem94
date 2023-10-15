@@ -51,12 +51,14 @@ nav {
 
 main .row .col-lg-5 {
   font-family: 'Space Grotesk', sans-serif;
+  color: #5d5c4f;
 }
 
 main .row .col-lg-5 h1 {
   font-size: 5em;
   font-family: orangeKid;
   font-weight: 900;
+  color: #9E9FA5;
 }
 
 .col-lg-7 img {
