@@ -64,3 +64,18 @@ main .row .col-lg-5 h1 {
 .col-lg-7 img {
   border-radius: 25%;
 }
+
+main .row .col-sm-12 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #5d5c4f;
+}
+
+.btn {
+  
+  background-color: #FFC6AC;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn:hover {
+  background-color: #858370;
+}
