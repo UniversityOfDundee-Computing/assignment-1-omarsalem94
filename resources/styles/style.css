@@ -15,6 +15,8 @@ colors:
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:wght@700&family=Indie+Flower&family=Pixelify+Sans&family=Space+Grotesk:wght@600&display=swap');
+
 @font-face {
   font-family: orangeKid;
   src: url(../fonts/orangekid.otf);
@@ -28,6 +30,7 @@ body {
   background-color: #FFF6DC;
   background-image: url(../images/tile_background.png);
   font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 
@@ -71,7 +74,10 @@ main .row .col-lg-5 h1 {
 }
 
 .col-lg-7 img {
-  border-radius: 25%;
+  border-radius: 10%;
+}
+.pic_left img {
+  padding-right: 25px;
 }
 
 main {
@@ -86,6 +92,7 @@ main {
 
 .btn:hover {
   background-color: #858370;
+  color: #FFF6DC;
 }
 
 .row h2 {
