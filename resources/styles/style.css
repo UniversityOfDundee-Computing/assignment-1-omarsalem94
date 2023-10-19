@@ -17,14 +17,17 @@ colors:
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:wght@700&family=Indie+Flower&family=Pixelify+Sans&family=Space+Grotesk:wght@600&display=swap');
 
+
 @font-face {
   font-family: orangeKid;
   src: url(../fonts/orangekid.otf);
 }
 
+
 img {
   max-width: 100%;
 }
+
 
 body {
   background-color: #FFF6DC;
@@ -34,14 +37,16 @@ body {
 }
 
 
-
-
-
 nav {
   background-color: #FFC6AC;
-  
   font-family: 'Dela Gothic One', cursive;
   font-size: 1.125rem;
+}
+
+
+.collapse {
+  display: flex;
+  justify-content: end;
 }
 
 
@@ -57,14 +62,17 @@ nav {
   font-size: 5px;
 }
 
+
 .nav-link:hover {
   color: #858370;
 }
+
 
 main .row .col-lg-5 {
   font-family: 'Space Grotesk', sans-serif;
   color: #5d5c4f;
 }
+
 
 main .row .col-lg-5 h1 {
   font-size: 5em;
@@ -73,27 +81,34 @@ main .row .col-lg-5 h1 {
   color: #9E9FA5;
 }
 
+
 .col-lg-7 img {
   border-radius: 10%;
 }
+
+
 .pic_left img {
   padding-right: 25px;
 }
+
 
 main {
   font-family: 'Space Grotesk', sans-serif;
   color: #5d5c4f;
 }
 
+
 .btn {
   background-color: #FFC6AC;
   font-family: 'Space Grotesk', sans-serif;
 }
 
+
 .btn:hover {
   background-color: #858370;
   color: #FFF6DC;
 }
+
 
 .row h2 {
   font-size: 3.5em;
@@ -101,6 +116,7 @@ main {
   font-weight: 900;
   color: #9E9FA5;
 }
+
 
 .row h2 {
   border-bottom-color: #C4C1A4 !important;
@@ -119,6 +135,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 
 footer p {
   font-family: 'Indie Flower', cursive;
