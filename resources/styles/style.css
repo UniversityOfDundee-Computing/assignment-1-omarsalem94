@@ -1,19 +1,25 @@
-/* 
+/*
+Fonts used in the website:
+
 font-family: 'Dela Gothic One', cursive;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Indie Flower', cursive;
 font-family: 'Pixelify Sans', cursive;
 font-family: 'Space Grotesk', sans-serif;
+font-family: orangeKid;
 
-colors:
+colors used in the website:
 
 #FFC6AC
 #FFF6DC
 #C4C1A4
 #9E9FA5
-
-
 */
+ 
+
+/* ////////////////////////////////////// */
+/* /////// Start of General Rules /////// */
+/* ////////////////////////////////////// */
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:wght@700&family=Indie+Flower&family=Pixelify+Sans&family=Space+Grotesk:wght@600&display=swap');
 
@@ -30,17 +36,31 @@ img {
 
 
 body {
-  background-color: #FFF6DC;
   background-image: url(../images/tile_background.png);
   font-size: 1.125rem;
   line-height: 1.6;
 }
 
+/* ////////////////////////////////////// */
+/* //////// End of General Rules //////// */
+/* ////////////////////////////////////// */
+
+
+
+
+/* ////////////////////////////////////// */
+/* ////////// Start of Navbar  ////////// */
+/* ////////////////////////////////////// */
 
 nav {
   background-color: #FFC6AC;
   font-family: 'Dela Gothic One', cursive;
   font-size: 1.125rem;
+}
+
+.navbar-brand img {
+  width:100px;
+  height:100px;
 }
 
 
@@ -67,9 +87,24 @@ nav {
   color: #858370;
 }
 
+/* ////////////////////////////////////// */
+/* /////////// End of Navbar  /////////// */
+/* ////////////////////////////////////// */
+
+
+
+
+/* ////////////////////////////////////// */
+/* /////////// Start of Main  /////////// */
+/* ////////////////////////////////////// */
+
+main {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #5d5c4f;
+}
+
 
 main .row .col-lg-5 {
-  font-family: 'Space Grotesk', sans-serif;
   color: #5d5c4f;
 }
 
@@ -92,21 +127,34 @@ main .row .col-lg-5 h1 {
 }
 
 
-main {
-  font-family: 'Space Grotesk', sans-serif;
-  color: #5d5c4f;
-}
-
-
 .btn {
   background-color: #FFC6AC;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  font-weight: 800;
+  width: 100%;
 }
 
 
 .btn:hover {
   background-color: #858370;
   color: #FFF6DC;
+}
+
+
+.hidden_table {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+}
+
+.hidden_table thead tr th {
+  background-color: #FFC6AC;
+}
+
+.hidden_table tbody tr td {
+  background-color: #FFF6DC;
+  font-weight: 400;
 }
 
 
@@ -128,6 +176,10 @@ main {
   border-radius: 15%;
   margin-bottom: 60px;
 }
+
+/* ////////////////////////////////////// */
+/* //////////// End of Main  //////////// */
+/* ////////////////////////////////////// */
 
 
 footer {
