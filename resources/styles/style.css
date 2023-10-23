@@ -199,9 +199,9 @@ footer {
 }
 
 
-footer p {
+footer p.border-top, footer p.border-bottom {
   font-family: 'Indie Flower', cursive;
-  margin: 0;
+  border-color: #C4C1A4 !important;
 }
 
 footer p span {
